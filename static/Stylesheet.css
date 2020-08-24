@@ -4,6 +4,7 @@
 }
 body {
 	background-image: url("bc.jpg");
+	background-repeat: round;
 }
 .bc-blur {
 	background-color: rgba(42,42,42,0.87);
@@ -16,7 +17,7 @@ body {
 .back a{
 	color: #FFF;
 }
-.Form {
+.Form button{
 	margin: 0;
   	position: absolute;
   	top: 50%;
@@ -37,4 +38,10 @@ body {
 }
 .cred a {
 	color: #B3C5F4;
+}
+@media only screen and (max-width: 1800px) {
+	body {
+		background-repeat: no-repeat;
+	}
+	
 }
